@@ -16,4 +16,4 @@ EXPOSE 8333
 EXPOSE 18332
 EXPOSE 18333
 
-CMD ["/usr/bin/bitcoind", "--conf=/opt/bitcoinabc/bitcoind.conf", "--printtoconsole"]
+CMD ["/usr/bin/bitcoind", "--conf=/opt/bitcoin/bitcoinabc/bitcoind.conf", "--printtoconsole"]
