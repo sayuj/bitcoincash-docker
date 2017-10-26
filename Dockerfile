@@ -5,7 +5,7 @@ RUN apt-get update && \
   apt-get install -y software-properties-common
 RUN add-apt-repository ppa:bitcoin-abc/ppa
 RUN apt-get update && \
-    apt-get install -y bitcoind=0.15.0-uahf-zesty2
+    apt-get install -y bitcoind=0.15.0
 
 
 
