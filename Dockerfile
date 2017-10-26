@@ -9,7 +9,7 @@ RUN apt-get update && \
 
 
 
-VOLUME ["/opt/bitcoinabc"]
+VOLUME ["/opt/bitcoin"]
 
 EXPOSE 8332
 EXPOSE 8333
